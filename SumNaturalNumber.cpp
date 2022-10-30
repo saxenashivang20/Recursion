@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int getsum(int n){
+    //Base case 
     if(n==0)
     return 0;
     return n + getsum(n-1);
